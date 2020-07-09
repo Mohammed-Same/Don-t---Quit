@@ -201,9 +201,10 @@ position: absolute;
 }
 @media all and (max-width: 500px){
 #color-right{
-	top: -20%;
-	left: 5%;
-		width: 350px;
+	top: -30%;
+	left: 35%;
+	width: 330px;
+	height:380px;
 	
 }
 #color-right p{
@@ -251,6 +252,30 @@ position: absolute;
 	display: none;
 }
 
+}
+@media all and (max-width:1000px){
+  #color-left{
+    width:400px;
+  }
+  #right-1{
+    left:13%;
+  }
+  #right-2{
+   bottom:7%;
+    width:3%;
+    height:130px;
+  }
+  #right-3{
+    bottom:15%;
+  }
+  #color-right{
+    width:250px;
+     border-radius:40px 20px 0px 140px;
+  }
+  #color-right p{
+    font-size:20px;
+   
+  }
 }
 
 
